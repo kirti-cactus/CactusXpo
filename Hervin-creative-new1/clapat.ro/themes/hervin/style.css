@@ -1798,11 +1798,11 @@ Primary use:	Showcase Portfolio
 	.hero-title {
 		font-weight: 700;
 		font-family: 'Oswald', sans-serif;
-		margin-bottom:0px;
+		margin-bottom:10px;
 		vertical-align: top;
 		width:auto;
 		font-size:86px;
-		line-height:120px;
+		line-height:100px;
 		z-index:10;
 		color:transparent;
 		-webkit-text-stroke: 1px rgba(0,0,0,0.3);
@@ -1811,6 +1811,7 @@ Primary use:	Showcase Portfolio
 		transform: translateY(5vh);
 		-webkit-transform: translateY(5vh);
 		opacity:0;
+		text-transform: uppercase;
 	}
 	
 	.light-content .hero-title {
@@ -3179,7 +3180,7 @@ Primary use:	Showcase Portfolio
     	padding: 0 20px;
 	}
 	
-	.flexnav li {;
+	.flexnav li {
     	line-height: 9vw;
 	}
 	

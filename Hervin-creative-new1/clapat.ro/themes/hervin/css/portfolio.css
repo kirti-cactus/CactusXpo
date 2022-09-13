@@ -375,7 +375,7 @@
 	}
 	
 	.item-image {
-		background-size:cover;
+		background-size:contain;
 		background-position:center center;
 		background-repeat:no-repeat;
 		width:100%;
@@ -395,7 +395,7 @@
 		height: auto;
 		padding-left:50px;
 		box-sizing: border-box;
-		width: 100%;
+		width: 80%;
 		cursor:default;
 		pointer-events: none;
 	}
@@ -415,6 +415,7 @@
 		line-height: 40px;
 		-webkit-transform: translateY(25px);
 		transform: translateY(25px);
+		text-transform: uppercase;	
 	}
 	
 	.below-caption .item:nth-of-type(3n+2) .item-title {
